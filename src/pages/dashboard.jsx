@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Header from "./Components/Header";
-import Sidebar from "./Components/Sidebar";
-import CourseProgress from "./Components/CourseProgress";
-import ProjectUpdates from "./Components/ProjectUpdates";
-import TimeSpentTable from "./Components/TimeSpentTable";
-import RightStats from "./Components/RightStats";
+import Header from "../Components/Header";
+import Sidebar from "../Components/Sidebar";
+import CourseProgress from "../Components/CourseProgress";
+import ProjectUpdates from "../Components/ProjectUpdates";
+import TimeSpentTable from "../Components/TimeSpentTable";
+import RightStats from "../Components/RightStats";
 
 export default function Dashboard() {
   const [collapsed, setCollapsed] = useState(false);
